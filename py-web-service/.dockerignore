@@ -1,0 +1,6 @@
+# .dockerignore for py-web-service
+Dockerfile
+docker-compose.yml
+# dotfiles
+.env
+.dockerignore

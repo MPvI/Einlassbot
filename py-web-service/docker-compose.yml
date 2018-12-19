@@ -1,0 +1,19 @@
+version: '3'
+services:
+    py-flask-dev:
+        container_name: py-flask
+        build: .
+        image: flask
+        volumes:
+            - .:/app
+        networks:
+            - proxy-network
+        environment:
+            - VIRTUAL_HOST=${VIRTUAL_HOST}
+            - VIRTUAL_PORT=5000
+            - LETSENCRYPT_HOST=${VIRTUAL_HOST}
+            - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+
+networks:
+    proxy-network:
+        external: true
