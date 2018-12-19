@@ -1,7 +1,13 @@
 # Overview
-This is the `README.md` for the _Einlassbot_. 
+This is the `README.md` for the <a href="https://github.com/MPvI/Einlassbot/blob/master/assets/action.mp4">_Einlassbot_</a>. 
 
-Thanks to everyone who wrote a piece of software used in this project.
+<img src="https://github.com/MPvI/Einlassbot/blob/master/assets/front.jpg" width=250/>
+
+<img src="https://github.com/MPvI/Einlassbot/blob/master/assets/top.jpg" width=250/>
+
+<img src="https://github.com/MPvI/Einlassbot/blob/master/assets/back.jpg" width=250/>
+
+Thanks to everyone who wrote a piece of software or designed a piece of hardware used in this project.
 
 ## Purpose
 The purpose of the _Einlassbot_ is to announce a users name if he writes **Tür** (German for **Door**) into a specific Telegram group. It can therefore be considered as a replacement for a doorbell. 
@@ -25,7 +31,7 @@ To use this you need at least your own Telegram Bot. Adapt `bot.py` to connect t
 # Microcontroller - `/einlassbot`
 - [ESP32 from AzDelivery](https://www.az-delivery.de/products/esp32-developmentboard) the actual hardware
 - [MicroPython LoBo](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo) is a really awesome micropython port for ESP32
-- [esptool](https://github.com/espressif/esptool) to allow flashing the ESP32
+- [esptool](https://github.com/espressif/esptool) to flash the ESP32
 - [ampy](https://github.com/adafruit/ampy) transfer files from and to the microcontroller
 - [Kemo M031N Amplifier](https://www.kemo-electronic.de/en/Light-Sound/Amplifier-Splitter/Modules/M031N-Amplifier-3-5-W-universal.php) getting some power to that speaker
 - [Aukru 5V 3A Power Supply](https://www.amazon.de/dp/B01566WOAG/ref=cm_sw_r_tw_dp_U_x_41sgCb798FKM6) making it run
